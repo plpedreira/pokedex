@@ -4,28 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokédex</title>
-    <script src="JS/script.js"></script>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="icon" href="Img/logo.png" type="imagem/x-icon">
+    <title>Pokédex Personalizada</title>
+<link rel="stylesheet" href="CSS/style.css">
+<script src="JS/script.js"></script>
+<link rel="icon" href="Img/logo.png">
 </head>
 
 <body>
     <div class="container">
-        <h1>Pokédex</h1>
-        <input type="number" id="pokemonId" placeholder="Digite o ID do Pokémon" min="1">
-        <button onclick="buscarPokemon()">Buscar</button>
-        <div class="pokemon-info">
-            <h2 id="nome"></h2>
-            <img id="imagem" src="" alt="Sprite Principal">
-            <div class="miniaturas">
-                <img id="miniatura-front" src="" alt="Miniatura Frente">
-                <img id="miniatura-back" src="" alt="Miniatura Costas">
-            </div>
-            <p id="tipo"></p>
-            <p id="natureza"></p>
-            <div class="icons" id="icons"></div>
-            <div class="stats">
+        <h1>Pokédex Personalizada</h1>
+        <div class="input-area">
+            <input type="number" id="pokemonId" placeholder="Digite o ID do Pokémon (1-151)">
+            <button onclick="buscarPokemon()">Buscar</button>
+        </div>
+
+        <div class="pokemon-info" id="pokemonInfo" style="display: none;">
+            <img id="pokemonImage" src="" alt="Imagem do Pokémon">
+            <div class="pokemon-info-text">
+                <h2 id="pokemonName">Nome</h2>
+                <p id="pokemonType">Tipo</p>
             </div>
         </div>
     </div>
