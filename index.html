@@ -2,30 +2,40 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokédex Personalizada</title>
-<link rel="stylesheet" href="CSS/style.css">
-<script src="JS/script.js"></script>
-<link rel="icon" href="Img/logo.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex Personalizada</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="JS/script.js"></script>
+  <link rel="icon" href="Img/logo.png">
 </head>
 
 <body>
-    <div class="container">
-        <h1>Pokédex Personalizada</h1>
-        <div class="input-area">
-            <input type="number" id="pokemonId" placeholder="Digite o ID do Pokémon (1-151)">
-            <button onclick="buscarPokemon()">Buscar</button>
-        </div>
+  <div class="container">
+    <h1>Pokédex Personalizada</h1>
 
-        <div class="pokemon-info" id="pokemonInfo" style="display: none;">
-            <img id="pokemonImage" src="" alt="Imagem do Pokémon">
-            <div class="pokemon-info-text">
-                <h2 id="pokemonName">Nome</h2>
-                <p id="pokemonType">Tipo</p>
-            </div>
-        </div>
+    <!-- Área de busca -->
+    <div class="input-area">
+      <input type="number" id="pokemonId" placeholder="Digite o ID do Pokémon (1-151)">
+      <button onclick="buscarPokemon()">Buscar</button>
     </div>
+
+    <!-- Exibição das imagens do Pokémon -->
+    <div class="pokemon-info" id="pokemonInfo" style="display: none;">
+      <div>
+        <h3>Imagem Frontal</h3>
+        <img id="pokemonImageFront" src="" alt="Imagem frontal do Pokémon">
+      </div>
+      <div>
+        <h3>Imagem Traseira</h3>
+        <img id="pokemonImageBack" src="" alt="Imagem traseira do Pokémon">
+      </div>
+      <div class="pokemon-info-text">
+        <h2 id="pokemonName">Nome</h2>
+        <p id="pokemonType">Tipo</p>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
