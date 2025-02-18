@@ -1,119 +1,118 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif; /* Definindo a fonte padrão */
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background-color: #f8f8f8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    font-family: 'Arial', sans-serif; /* Fonte para todo o corpo */
-  }
-  
-  .container {
-    background-color: #e74c3c;
-    border-radius: 15px;
-    padding: 20px;
-    max-width: 400px;
-    color: white;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    font-family: 'Arial', sans-serif; /* Fonte para o container */
-  }
-  
-  .pokemon-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f5f5f5;
-    padding: 15px;
-    border-radius: 10px;
-    color: #333;
-  }
-  
-  .pokemon-info img {
-    width: 96px;
-    height: 96px;
-    border-radius: 50%;
-    margin-right: 10px;
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  .pokemon-info-text {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .pokemon-info-text h2 {
-    font-size: 18px;
-    color: #5c1b6e;
-    font-weight: bold; /* Ajustando o título com um peso mais forte */
-  }
-  
-  .pokemon-info-text p {
-    font-size: 14px;
-    color: #8c278a;
-  }
-  
-  .input-area {
-    margin-bottom: 15px;
-  }
-  
-  input[type="number"] {
-    width: calc(100% - 22px);
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-  }
-  
-  button {
-    background-color: #8c278a;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-    margin-top: 10px;
-    font-family: 'Arial', sans-serif; /* Fonte para o botão */
-  }
-  
-  button:hover {
-    background-color: #6b2067;
-  }
-  
-  .custom-image-input {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    color: white;
-  }
-  
-  input[type="url"] {
-    width: calc(100% - 22px);
-    padding: 10px;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 14px;
-  }
-  
-  h1 {
-    font-size: 24px;
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  h3 {
-    font-size: 16px;
-    color: #333;
-    font-weight: bold;
-  }
-  
+ * {
+   box-sizing: border-box;
+   font-family: 'Arial', sans-serif;
+   margin: 0;
+   padding: 0;
+ }
+
+ body {
+   background-color: #f8f8f8;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   font-family: 'Arial', sans-serif;
+ }
+
+ .container {
+   background-color: #e74c3c;
+   border-radius: 15px;
+   padding: 20px;
+   max-width: 400px;
+   color: white;
+   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+   font-family: 'Arial', sans-serif;
+ }
+
+ .pokemon-info {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #f5f5f5;
+   padding: 15px;
+   border-radius: 10px;
+   color: #333;
+ }
+
+ .pokemon-info img {
+   width: 96px;
+   height: 96px;
+   border-radius: 50%;
+   margin-right: 10px;
+   background-color: white;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+ }
+
+ .pokemon-info-text {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .pokemon-info-text h2 {
+   font-size: 18px;
+   color: #5c1b6e;
+   font-weight: bold;
+ }
+
+ .pokemon-info-text p {
+   font-size: 14px;
+   color: #8c278a;
+ }
+
+ .input-area {
+   margin-bottom: 15px;
+ }
+
+ input[type="number"] {
+   width: calc(100% - 22px);
+   padding: 10px;
+   margin-top: 10px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   font-size: 16px;
+ }
+
+ button {
+   background-color: #8c278a;
+   color: white;
+   padding: 10px 15px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 14px;
+   margin-top: 10px;
+   font-family: 'Arial', sans-serif;
+ }
+
+ button:hover {
+   background-color: #6b2067;
+ }
+
+ .custom-image-input {
+   margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   color: white;
+ }
+
+ input[type="url"] {
+   width: calc(100% - 22px);
+   padding: 10px;
+   margin-top: 5px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   font-size: 14px;
+ }
+
+ h1 {
+   font-size: 24px;
+   text-align: center;
+   font-weight: bold;
+   font-family: 'Arial', sans-serif;
+ }
+
+ h3 {
+   font-size: 16px;
+   color: #333;
+   font-weight: bold;
+ }
