@@ -34,14 +34,23 @@
    color: #333;
  }
 
- .pokemon-info img {
-   width: 96px;
-   height: 96px;
-   border-radius: 50%;
-   margin-right: 10px;
-   background-color: white;
-   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
- }
+ #imagem-frente img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#imagem-traseira img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
 
  .pokemon-info-text {
    display: flex;
