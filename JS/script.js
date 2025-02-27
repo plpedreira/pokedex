@@ -31,4 +31,3 @@ async function buscarPokemon() {
     alert('Erro ao buscar o Pokémon. Tente novamente.');
     pokemonInfo.style.display = 'none';
   }
-}
