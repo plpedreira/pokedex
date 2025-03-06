@@ -1,3 +1,9 @@
+document.getElementById('pokemonId').addEventListener('keypress', function(event) {
+  if (event.key === 'Enter') {
+    buscarPokemon();
+  }
+});
+
 async function buscarPokemon() {
   const pokemonId = document.getElementById('pokemonId').value;
   const pokemonInfo = document.getElementById('pokemonInfo');
