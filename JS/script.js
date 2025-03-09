@@ -1,3 +1,8 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const sprite = document.getElementById("pokemonSprite");
+  sprite.src = "img/sprite.png"; // Troque pelo seu sprite personalizado
+});
+
 document.getElementById('pokemonId').addEventListener('keypress', function(event) {
   if (event.key === 'Enter') {
     buscarPokemon();

@@ -1,39 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pokédex Personalizada</title>
+  <title>DunsDex</title>
   <link rel="stylesheet" href="CSS/style.css">
   <script src="JS/script.js" defer></script>
   <link rel="icon" href="Img/icon/logo.png">
 </head>
-
 <body>
   <div class="container">
-    <h1>Pokédex Personalizada</h1>
-
+    <h1>DunsDex</h1>
     <div class="input-area">
       <input type="number" id="pokemonId" placeholder="Digite o ID do Pokémon (1-151)">
       <button onclick="buscarPokemon()">Buscar</button>
     </div>
-
     <div class="pokemon-info" id="pokemonInfo" style="display: none;">
       <div id="imagem-frente">
         <img id="pokemonImageFront" src="https://via.placeholder.com/96" alt="Imagem frontal do Pokémon">
       </div>
-
       <div id="imagem-traseira">
         <img id="pokemonImageBack" src="https://via.placeholder.com/96" alt="Imagem traseira do Pokémon">
       </div>
-
       <div class="pokemon-info-text">
         <h2 id="pokemonName">Nome</h2>
         <p id="pokemonType">Tipo</p>
       </div>
     </div>
+    <img id="pokemonSprite" src="img/sprite.png" alt="Pokemon andando">
   </div>
 </body>
-
 </html>
