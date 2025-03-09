@@ -5,6 +5,7 @@
   padding: 0;
 }
 
+<<<<<<< HEAD
 body {
   display: flex;
   justify-content: center;
@@ -33,6 +34,19 @@ body {
   width: 100%;
   min-height: 120px;
 }
+
+ .pokemon-info {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color:#c53424;
+    padding: 15px;
+    border-radius: 10px;
+    color: #333;
+    width: 100%;
+    min-height: 120px;
+  }
+
 
 #imagem-frente img, #imagem-traseira img {
   width: 100px;
@@ -71,6 +85,7 @@ button:hover {
   animation: walk 3s linear infinite;
 }
 
+<<<<<<< HEAD
 @keyframes walk {
   from {
     left: 0;
@@ -79,3 +94,50 @@ button:hover {
     left: 100%;
   }
 }
+=======
+ .input-area {
+   margin-bottom: 15px;
+ }
+
+ input[type="number"] {
+   width: calc(100% - 22px);
+   padding: 10px;
+   margin-top: 10px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   font-size: 16px;
+ }
+
+ button {
+   background-color: #ffffff;
+   color: rgb(205, 96, 96);
+   padding: 10px 15px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 14px;
+   margin-top: 10px;
+ }
+
+ button:hover {
+   background-color: #aa2121;
+ }
+
+ .custom-image-input {
+   margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   color: white;
+ }
+ 
+ h2 {
+   font-size: 24px;
+   text-align: center;
+   font-weight: bold;
+ }
+ 
+ p {
+  text-align: center;
+ }
+
+>>>>>>> f3945917732988ad3343e59296172f4611e773c9
