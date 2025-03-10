@@ -5,7 +5,6 @@
   padding: 0;
 }
 
-<<<<<<< HEAD
 body {
   display: flex;
   justify-content: center;
@@ -75,26 +74,24 @@ button:hover {
   background-color: #aa2121;
 }
 
-/* Estilização do sprite animado */
 #pokemonSprite {
   position: absolute;
   bottom: 50px;
   left: 0;
-  width: 80px;
+  width: 70px;
   height: auto;
-  animation: walk 3s linear infinite;
+  animation: walk 3s alternate infinite;
 }
 
-<<<<<<< HEAD
 @keyframes walk {
   from {
-    left: 0;
+    left: 5%;
   }
   to {
-    left: 100%;
+    left: 95%;
   }
 }
-=======
+
  .input-area {
    margin-bottom: 15px;
  }
@@ -139,5 +136,3 @@ button:hover {
  p {
   text-align: center;
  }
-
->>>>>>> f3945917732988ad3343e59296172f4611e773c9
