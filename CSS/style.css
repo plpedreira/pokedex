@@ -34,18 +34,6 @@ body {
   min-height: 120px;
 }
 
- .pokemon-info {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    background-color:#c53424;
-    padding: 15px;
-    border-radius: 10px;
-    color: #333;
-    width: 100%;
-    min-height: 120px;
-  }
-
 
 #imagem-frente img, #imagem-traseira img {
   width: 100px;
@@ -59,16 +47,6 @@ body {
   color: #ffffff;
 }
 
-button {
-  background-color: #ffffff;
-  color: rgb(205, 96, 96);
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 14px;
-  margin-top: 10px;
-}
 
 button:hover {
   background-color: #aa2121;
@@ -88,7 +66,7 @@ button:hover {
     left: 5%;
   }
   to {
-    left: 95%;
+    left: 90%;
   }
 }
 
@@ -106,19 +84,20 @@ button:hover {
  }
 
  button {
-   background-color: #ffffff;
-   color: rgb(205, 96, 96);
-   padding: 10px 15px;
-   border: none;
-   border-radius: 5px;
-   cursor: pointer;
-   font-size: 14px;
-   margin-top: 10px;
- }
+  background-color: #ffffff;
+  color: rgb(205, 96, 96);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
 
- button:hover {
-   background-color: #aa2121;
- }
+button:hover {
+  background-color: #aa2121;
+}
 
  .custom-image-input {
    margin-top: 10px;
@@ -136,3 +115,47 @@ button:hover {
  p {
   text-align: center;
  }
+
+ h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+ }
+
+ @media (max-width: 600px) {
+  .container {
+    max-width: 80%;
+    padding: 10px;
+  }
+
+  #pokemonSprite {
+    width: 50px;
+  }
+
+  .pokemon-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #imagem-frente img, #imagem-traseira img {
+    width: 80px;
+    height: 80px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
