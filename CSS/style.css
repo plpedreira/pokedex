@@ -124,9 +124,9 @@ button:hover {
   margin-top: 10px;
  }
 
- @media (max-width: 600px) {
+@media (max-width: 800px) and (orientation: landscape) {
   .container {
-    max-width: 80%;
+    max-width: 90%;
     padding: 10px;
   }
 
