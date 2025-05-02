@@ -139,11 +139,11 @@ button:hover {
     align-items: center;
   }
 
-  #imagem-frente img, #imagem-traseira img {
+  #imagem-frente, #imagem-traseira, img {
     width: 80px;
     height: 80px;
   }
-
+  
   button {
     width: 100%;
     padding: 10px;
@@ -158,4 +158,16 @@ button:hover {
   h2 {
     font-size: 20px;
   }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #bf3021 transparent;
+  color: white;
+  padding: 10px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }

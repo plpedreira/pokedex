@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const sprite = document.getElementById("pokemonSprite");
-  sprite.src = "img/sprite.png"; // Troque pelo seu sprite personalizado
+  sprite.src = "img/sprite.png";
 });
 
 document.getElementById('pokemonId').addEventListener('keypress', function(event) {
